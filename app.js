@@ -1,5 +1,6 @@
 const express = require('express');
 const _ = require('underscore');
+const extra = null;
 
 var port = process.env.PORT || 8080;
 var animals = {
