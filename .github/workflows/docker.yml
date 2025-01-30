@@ -39,5 +39,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags:
-            iph1/despliegue_continuo:latest
-            ghcr.io/iph1/despliegue_continuo:latest
+            iph1/despliegue-continuo:latest
+            ghcr.io/iph1/despliegue-continuo:latest
