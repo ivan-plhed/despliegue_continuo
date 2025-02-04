@@ -39,4 +39,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags:
-            ghcr.io/ivan-plhed/despliegue_continuo:latest
+            ghcr.io/ivan-plhed/despliegue_continuo
