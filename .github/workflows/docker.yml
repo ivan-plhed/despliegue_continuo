@@ -38,5 +38,4 @@ jobs:
           contest: .
           file: ./Dockerfile
           push: true
-          tags:
-            ghcr.io/ivan-plhed/despliegue_continuo:latest
+          tags: ghcr.io/ivan-plhed/despliegue_continuo:latest
