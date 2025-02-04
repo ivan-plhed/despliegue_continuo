@@ -40,4 +40,4 @@ jobs:
           push: true
           tags:
             iph1/despliegue-continuo
-            ghcr.io/ivan-plhed/despliegue-continuo
+            ghcr.io/iph1/despliegue-continuo
