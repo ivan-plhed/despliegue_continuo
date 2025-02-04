@@ -8,6 +8,9 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       -
         name: Checkout
@@ -38,4 +41,4 @@ jobs:
           contest: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/ivan-plhed/despliegue_continuo:latest
+          tags: ghcr.io/ivan-plhed/despliegue_continuo
